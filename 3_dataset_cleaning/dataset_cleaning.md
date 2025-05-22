@@ -3,7 +3,12 @@
 After vocal extraction:
 
 ### 1. Remove reverb/echo/noise
-Use Adobe Enhance Speech or free tools like RX 10 or demucs denoise model.
+
+- Use **UVR5** with the following models to clean vocal tracks:
+  - **denoise**
+  - **dereverb**
+  - **de-eco**
+- This step removes reverb, echo, and noise from vocals before training
 
 ---
 
