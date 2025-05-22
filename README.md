@@ -17,11 +17,11 @@ It includes:
 
 ## Folders:
 
-- `1_audio_preparation`: How to extract the best quality from songs.
-- `2_vocal_extraction`: Tools and models to isolate clean vocals.
-- `3_dataset_cleaning`: Reverb/noise/silence removal + standardization.
-- `4_training`: Step-by-step training instructions using Applio/RVC.
-- `5_tips_and_optimization`: Quality tricks, configs, and insights.
-- `resources`: Tools, downloads, model suggestions, and useful links.
+- [Audio Preparation](1_audio_preparation/audio_preparation.md)  
+- [Vocal Extraction](2_vocal_extraction/vocal_extraction.md)  
+- [Dataset Cleaning](3_dataset_cleaning/dataset_cleaning.md)  
+- [Training](4_training/training.md)  
+- [Tips and Optimization](5_tips_and_optimization/tips.md)  
+- [Resources](resources/tools.md)  
 
 > Last updated: May 2025
