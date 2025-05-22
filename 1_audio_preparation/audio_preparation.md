@@ -1,7 +1,7 @@
 # Audio Preparation
 
 ## Step 1: Get Lossless Songs
-Use [orpheus.py].(https://github.com/yaronzz/Tidal-Media-Downloader](https://github.com/OrfiTeam/OrpheusDL) to download songs directly from TIDAL CD quality.
+Use [OrpheusDL](https://github.com/OrfiTeam/OrpheusDL) to download songs directly from TIDAL CD quality.
 
 **Requirements:**
 - TIDAL account
