@@ -6,8 +6,8 @@ After vocal extraction:
 
 - Use **UVR5** with the following models to clean vocal tracks:
   - **denoise**
-  - **dereverb**
-  - **de-eco**
+  - **de-reverb**
+  - **de-ehco**
 - This step removes reverb, echo, and noise from vocals before training
 
 ---
