@@ -1,37 +1,35 @@
-# Traning
+# Training
 
-```markdown
-# Training Your AI Voice Model
-
-## Tools:
-- Applio (RVC GUI)
-- RVC models with KMeans or FAISS
-
----
-
-## Pre-training:
+## Setup
 
 - Set model name
-- Set sample rate: use 48kHz if you extracted in that
-- Disable all effects in preprocessing
-- Extract pitch with:
-  - `rmvpe`
-  - `contentvec`
+- Select sample rate (e.g., 48kHz if audio extracted at 48k)
+- Disable all preprocessing effects
 
 ---
 
-## Index:
-- ~1 hour dataset: use **KMeans**
-- Less: use **FAISS**
+## Feature Extraction
+
+- Extract pitch with `rmvpe`
+- Extract features with `contentvec`
 
 ---
 
-## Training Settings:
-- Epochs: 500
-- Read TensorBoard regularly
-- Choose pretrained model (optional)
+## Indexing Method
+
+- Dataset ~1 hour: use **KMeans**
+- Smaller datasets: use **FAISS**
 
 ---
 
-## Result:
-After ~500 epochs, your model should be stable and production-ready.
+## Training Parameters
+
+- Train up to 500 epochs
+- Monitor progress with TensorBoard
+- Optionally start from a pretrained model
+
+---
+
+## Result
+
+- Model should be stable and ready for production after training
